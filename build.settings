@@ -1,0 +1,46 @@
+settings =
+{
+ 
+plugins =
+{
+    ["CoronaProvider.ads.inmobi"] =
+   {
+      publisherId = "com.coronalabs",
+   },
+},
+
+   
+ 
+ 	MinimumOSVersion="4.3",
+
+	orientation =
+	{
+		 default = "portrait",
+         supported = {"portrait"},
+	},
+
+	iphone =
+    {
+        plist =
+        {
+             CFBundleIconFile = "Icon.png",
+             CFBundleIconFiles = {
+                    "Icon.png", 
+                    "Icon@2x.png",
+                    "Icon-72.png", 
+             },
+            UIAppFonts =
+            {
+            	"MinionPro-Medium.otf",
+                "Futura.ttc",
+                "Chalkboard.ttc",
+                "AvenirLTStd-Black.otf",
+                "SourceCodePro-Black.ttf"
+            },
+            UIApplicationExitsOnSuspend = true
+
+        },
+    },
+    
+}
+
